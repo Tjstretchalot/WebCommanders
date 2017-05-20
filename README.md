@@ -55,3 +55,7 @@ Initially, each team has 1 barracks at their base. This building cannot be destr
 done so, that player will be assigned to Team 1, the next player Team 2, then Team 3, then Team 4, and back to Team 1.
 
 If a team has another unused barracks at the end of that round, that team will be included in the next round. For example, if Team 3 has 2 additional barracks and Team 4 has 1 additional barracks, both will be included in the next round of players. So the next player would go to Team 3, then the next player to Team 4. Team 3 would be the only team with another barracks, so the next player would go to team 3. Then the process would repeat (Team 1, then Team 2, etc.). Additional barracks are not counted once a round starts, but lost unused barracks are.
+
+### Vision notes
+
+Only the commander is able to see the entire map. All other players can only see what is in the nearby vicinity, with a locked camera centered around their unit.
