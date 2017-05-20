@@ -48,3 +48,10 @@ Brawler:
 
 - Can punch (melee range) for a moderate amount of damage. 
 - Has a large amount of health. No health regen.
+
+### Spawning notes
+
+Initially, each team has 1 barracks at their base. This building cannot be destroyed. Players in the general pool may elect to spawn as a unit (the only choice if all commander spots are taken). When 
+done so, that player will be assigned to Team 1, the next player Team 2, then Team 3, then Team 4, and back to Team 1.
+
+If a team has another unused barracks at the end of that round, that team will be included in the next round. For example, if Team 3 has 2 additional barracks and Team 4 has 1 additional barracks, both will be included in the next round of players. So the next player would go to Team 3, then the next player to Team 4. Team 3 would be the only team with another barracks, so the next player would go to team 3. Then the process would repeat (Team 1, then Team 2, etc.). Additional barracks are not counted once a round starts, but lost unused barracks are.
