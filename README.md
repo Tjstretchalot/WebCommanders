@@ -59,3 +59,7 @@ If a team has another unused barracks at the end of that round, that team will b
 ### Vision notes
 
 Only the commander is able to see the entire map. All other players can only see what is in the nearby vicinity, with a locked camera centered around their unit.
+
+### Controls
+
+Players will move with W - which will move in the direction of the mouse.
