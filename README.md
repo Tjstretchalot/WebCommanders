@@ -35,17 +35,20 @@ Commander:
 
 Pirate:
 
+- Looks like an orange triangle
 - Has a hook which can be used to pull enemies in. Hooking an enemy does a moderate amount of damage. Cannot target allies.
 - Has a moderate amount of health. No health regen.
 
 Medic:
 
+- Looks like a pink square
 - When in melee range of an ally, may punch that ally to heal it.
 - Can throw a smoke bomb, which does a little ticking damage to opponents inside the smoke.
 - Has a small amount of health. Moderate health regen.
 
 Brawler:
 
+- Looks like blue pentagon
 - Can punch (melee range) for a moderate amount of damage. 
 - Has a large amount of health. No health regen.
 

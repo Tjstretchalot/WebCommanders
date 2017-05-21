@@ -43,12 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Entity.cs" />
+    <Compile Include="Map\GameMap.cs" />
+    <Compile Include="Map\Tile.cs" />
+    <Compile Include="Math2\AxisAlignedLine2.cs" />
+    <Compile Include="Math2\BoundingBox2.cs" />
+    <Compile Include="Math2\Line2.cs" />
+    <Compile Include="Math2\Math2.cs" />
+    <Compile Include="Math2\Point2.cs" />
+    <Compile Include="Math2\Triangle2.cs" />
+    <Compile Include="Math2\Vector2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
