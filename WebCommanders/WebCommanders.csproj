@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NOT_MONOGAME</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -46,14 +46,6 @@
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="Map\GameMap.cs" />
     <Compile Include="Map\Tile.cs" />
-    <Compile Include="Math2\AxisAlignedLine2.cs" />
-    <Compile Include="Math2\Rect2.cs" />
-    <Compile Include="Math2\Line2.cs" />
-    <Compile Include="Math2\Math2.cs" />
-    <Compile Include="Math2\Point2.cs" />
-    <Compile Include="Math2\Shape2.cs" />
-    <Compile Include="Math2\Polygon2.cs" />
-    <Compile Include="Math2\Vector2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,6 +53,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <Import Project="..\..\SharpMath2\SharpMath2.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
