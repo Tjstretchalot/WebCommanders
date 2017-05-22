@@ -7,20 +7,36 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCommanders", "WebCommand
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharpMath2", "..\SharpMath2\SharpMath2.shproj", "{53290E9B-7A54-4098-AB3D-E936D93BDF97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "websocket-sharp", "..\websocket-sharp\websocket-sharp.csproj", "{B357BAC7-529E-4D81-A0D2-71041B19C8DE}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\SharpMath2\SharpMath2.projitems*{53290e9b-7a54-4098-ab3d-e936d93bdf97}*SharedItemsImports = 13
 		..\SharpMath2\SharpMath2.projitems*{c6c93bcb-2917-44cb-bc46-c1b72c355c14}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Ubuntu|Any CPU = Debug_Ubuntu|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		Release_Ubuntu|Any CPU = Release_Ubuntu|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
 		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
 		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6C93BCB-2917-44CB-BC46-C1B72C355C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug_Ubuntu|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Debug_Ubuntu|Any CPU.Build.0 = Debug_Ubuntu|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Release_Ubuntu|Any CPU.ActiveCfg = Release_Ubuntu|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Release_Ubuntu|Any CPU.Build.0 = Release_Ubuntu|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B357BAC7-529E-4D81-A0D2-71041B19C8DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
