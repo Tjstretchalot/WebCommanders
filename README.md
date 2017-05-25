@@ -1,5 +1,9 @@
 # WebCommanders
 
+## Currently suspended
+
+I'm not developing this right now as I wait to find a good library for rendering on the web - phaser.js did not pass a filltest (draw fullscreen rect + some changing text).
+
 This is my first project using websockets, and it's fairly ambitious, so there's a good chance it won't be completed. It is meant to be in the same vein as .io games - users connect and input a name and are immediately placed into the game. 
 
 This is the server portion of the game.

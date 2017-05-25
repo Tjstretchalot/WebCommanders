@@ -50,7 +50,7 @@ namespace WebCommanders.Services
 
         protected override void OnClose(CloseEventArgs e)
         {
-            Console.Write("on close");
+            Console.WriteLine("on close");
         }
     }
 }
